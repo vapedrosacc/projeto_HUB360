@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+  div.block{
+    margin: 80px auto;
+    width: 640px;
+  }
+  div#imagem3{
+    background-position: center bottom;
+  }
+}
+
+@media  screen and (min-width:992px){
+    div.block{
+        width: 80vw;
+        margin: 120px auto;
+        display: flex;
+    }
+    div.block > div#imagem{
+        background-position: center left;
+        width:425px;
+        height: 450px;
+        float: left;
+    }
+    div.block > div.texto{
+        width: 100%;
+        text-align:center;
+      }
+    div.texto >ul {
+        padding: 20px 50px;
+      }
+      div.texto >ul > li{
+        padding-top: 30px;
+      }
+    .button-link{
+        width: 300px;
+        padding: 12px;
+        background-color: #002e34;
+        border-radius: 5px; 
+        text-align: center;
+        transition: transform 0.3s ;
+        text-decoration: none;
+        color: #f5f5f5;
+        position: relative;
+        top:25%
+      }
+    .button-link:hover{
+        background-color: #003e46;
+        transform: translateY(-15px);
+    }
+}
